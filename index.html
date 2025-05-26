@@ -1,0 +1,164 @@
+<!DOCTYPE html> <!-- Define o documento como HTML5 -->
+<html lang="pt-BR"> <!-- Define o idioma da página como português brasileiro -->
+
+<head>
+  <meta charset="UTF-8"> <!-- Define a codificação de caracteres para suportar acentos e símbolos -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura para ser responsivo -->
+  <title>FoodSpot - Transforme seu negócio de comida</title> <!-- Define o título da página -->
+  <link rel="stylesheet" href="styles.css"> <!-- Importa o arquivo de estilos CSS -->
+</head>
+
+<body> <!-- Início do conteúdo da página -->
+
+  <!-- Cabeçalho da página -->
+  <header>
+    <div class="container flex items-center justify-between"> <!-- Layout flexível para posicionamento -->
+      <a href="#" class="logo"> <!-- Logo da empresa -->
+        <span class="logo-icon">🍽️</span> <!-- Ícone do logo -->
+        <span>FoodSpot</span> <!-- Nome da marca -->
+      </a>
+      <nav> <!-- Menu de navegação -->
+        <a href="#">Recursos</a>
+        <a href="#">Preços</a>
+        <a href="#" class="last-nav-item">Contato</a>
+      </nav>
+      <a href="#" class="btn btn-primary header-cta">Começar agora</a> <!-- Botão de chamada para ação -->
+    </div>
+  </header>
+
+  <main> <!-- Conteúdo principal da página -->
+
+    <!-- Seção principal com destaque inicial -->
+    <section class="hero py-16">
+      <div class="container">
+        <div class="grid hero-grid"> <!-- Layout em grid para organizar conteúdo -->
+          <div>
+            <h1>Transforme seu negócio de comida com a FoodSpot</h1> <!-- Título principal -->
+            <p>A plataforma completa para pequenos empreendedores do setor alimentício.</p> <!-- Descrição curta -->
+            <div class="flex gap-4 mt-8 btn-group"> <!-- Botões de ação -->
+              <a href="#" class="btn btn-primary">Experimente grátis →</a>
+              <a href="#" class="btn btn-outline">Saiba mais</a>
+            </div>
+          </div>
+          <div class="hero-image"> <!-- Imagem principal -->
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1074&q=80"
+              alt="FoodSpot Dashboard" class="img-responsive shadow">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de recursos da plataforma -->
+    <section class="features py-16">
+      <div class="container">
+        <div class="text-center mb-8">
+          <span class="badge">Recursos</span> <!-- Destaque visual -->
+          <h2>Tudo que você precisa em um só lugar</h2> <!-- Título da seção -->
+          <p>Gerencie pedidos, cardápios, estoque e clientes.</p> <!-- Descrição curta -->
+        </div>
+        <div class="grid grid-3"> <!-- Layout com três colunas -->
+          <div class="feature-card"> <!-- Card de um recurso -->
+            <div class="feature-icon">⏱️</div>
+            <h3>Gestão de Pedidos</h3>
+            <p>Receba e gerencie pedidos em tempo real.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">⭐</div>
+            <h3>Cardápio Digital</h3>
+            <p>Crie e atualize seu cardápio digital.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🛡️</div>
+            <h3>Controle de Estoque</h3>
+            <p>Monitore seu estoque e reduza desperdícios.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de chamada para ação -->
+    <section class="cta-section py-16">
+      <div class="container">
+        <div class="grid cta-grid"> <!-- Layout em duas colunas -->
+          <div class="cta-image"> <!-- Imagem ilustrativa -->
+            <img src="https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=1170&q=80"
+              alt="FoodSpot App" class="img-responsive">
+          </div>
+          <div>
+            <h2>Aumente suas vendas com nossa plataforma</h2>
+            <p>Clientes relatam um aumento médio de 30% nas vendas.</p>
+            <ul class="icon-list mt-4 mb-8"> <!-- Lista de benefícios -->
+              <li>Presença online fortalecida</li>
+              <li>Fidelização de clientes</li>
+              <li>Redução de custos operacionais</li>
+              <li>Análise de dados para melhores decisões</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Comece agora</a> <!-- Botão de ação -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de depoimentos -->
+    <section class="testimonials py-16">
+      <div class="container">
+        <div class="text-center mb-8">
+          <span class="badge">Depoimentos</span> <!-- Destaque da seção -->
+          <h2>O que nossos clientes dizem</h2>
+          <p>Veja como a FoodSpot tem ajudado empreendedores.</p>
+        </div>
+        <div class="grid grid-3"> <!-- Grid com três depoimentos -->
+          <div class="testimonial-card"> <!-- Card de depoimento -->
+            <div>
+              <div class="stars">★★★★★</div>
+              <p>"A FoodSpot revolucionou meu restaurante!"</p>
+            </div>
+            <div class="flex items-center gap-4"> <!-- Avatar e nome do cliente -->
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=687&q=80"
+                alt="Avatar" class="avatar">
+              <div>
+                <p class="testimonial-name">Ana Silva</p>
+                <p class="testimonial-company">Restaurante Sabor Caseiro</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Última seção de chamada para ação -->
+    <section class="final-cta py-16">
+      <div class="container text-center">
+        <h2>Pronto para transformar seu negócio?</h2> <!-- Pergunta motivacional -->
+        <p>Junte-se a milhares de empreendedores.</p> <!-- Incentivo -->
+        <div class="flex gap-4 justify-center mt-8 btn-group"> <!-- Botões de ação -->
+          <a href="#" class="btn btn-primary">Comece grátis por 14 dias</a>
+          <a href="#" class="btn btn-outline">Agende uma demonstração</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="flex items-center gap-2"> <!-- Informação do rodapé -->
+          <span class="footer-icon">🍽️</span>
+          <p class="copyright">© 2025 FoodSpot. Todos os direitos reservados.</p>
+        </div>
+        <div class="footer-links"> <!-- Links úteis -->
+          <a href="#">Termos de Serviço</a>
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Suporte</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+```
+
+Agora seu código está totalmente comentado de forma objetiva e ideal para sua apresentação! 🚀😊 Se precisar de ajustes,
+estou aqui para ajudar!
